@@ -1,0 +1,15 @@
+{
+  "name": "NW-Sample",
+  "main": "index.html",
+  
+  "window": {
+    "frame": true,
+	"icon": "img/chrome-64.png",
+	"min_width": 900,
+	"min_height": 560
+  },
+  "user-agent": "APP/1.0 (NW)",
+  "crash_report_url":"",
+  "chromium-args": "--mixed-context"
+  
+}
