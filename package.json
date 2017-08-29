@@ -10,6 +10,9 @@
   },
   "user-agent": "APP/1.0 (NW)",
   "crash_report_url":"",
-  "chromium-args": "--mixed-context"
+  "chromium-args": "--mixed-context",
+  "scripts": {
+    "start": "nw ."
+  }
   
 }
