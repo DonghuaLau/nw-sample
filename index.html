@@ -2,8 +2,13 @@
 <html>
 <head>
   <title>App</title>
-  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script> --> <!-- seems not working -->
+  <script type="text/javascript" src="js/include.js"></script>
+  <script type="text/javascript" src="lib/semantic-ui/semantic.min.js"></script>
   <script type="text/javascript" src="main.js"></script>
+
+  <link rel='stylesheet' id='crayon-theme-turnwall-css' href='lib/semantic-ui/semantic.min.css' type='text/css' media='all' />
 
 </head>
 <body style="">
@@ -43,13 +48,13 @@ var os = require('os');
 document.write('You are running on ', os.platform());
 
 // Get the current window
-var win = nw.Window.get();
-
-
+//var win = nw.Window.get();
 
  
 </script>
 </p>
+
+<button class="ui button" id="btn-imap">button 1</button>
 
 
 </body>
